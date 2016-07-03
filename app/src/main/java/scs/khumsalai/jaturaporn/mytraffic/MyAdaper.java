@@ -12,7 +12,7 @@ import android.widget.TextView;
 /**
  * Created by Nicotinman on 7/3/2016.
  */
-public class MyAdaper extends BaseAdapter{
+public class MyAdaper extends BaseAdapter {
 
     // Explicit
     private Context context;
@@ -55,7 +55,6 @@ public class MyAdaper extends BaseAdapter{
         View view1 = layoutInflater.inflate(R.layout.my_listview, viewGroup, false);    //สร้างวิวใหม่
 
 
-
         //Bild Widget
         ImageView iconImageView = (ImageView) view1.findViewById(R.id.imageView);
         TextView nameTextView = (TextView) view1.findViewById(R.id.textView2);
@@ -68,11 +67,7 @@ public class MyAdaper extends BaseAdapter{
         detailTextView.setText(detailStrings[i]);
 
 
-
-
-
-
         return view1; // return view1;
     }
-}
+
 }   // end of Main Class
